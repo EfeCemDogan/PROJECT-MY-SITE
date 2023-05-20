@@ -1,0 +1,136 @@
+// Header
+header {
+    background-image: url(../img/img1.jpg);
+    background-color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+// Navbar
+.navbar {
+    text-align: center;
+}
+
+.navbar-nav a {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+// Icons
+#home__a i {
+    color: #EF6D6D;
+}
+
+#home__b div li i {
+    
+}
+
+// section_b
+#home__b div {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+#home__b li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+// section c
+#home__c i::after {
+ display: none;
+}
+
+// About
+#about__c {
+    background-color: #f4f4f4;
+}
+
+.about-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+
+    img {
+        width: 70%;
+    }
+}
+
+// Contact
+#contact {
+    &__a {
+        .form-fields {
+            display: grid;
+            grid-template-areas: 
+            'name email'
+            'subject phone'
+            'message message'
+            'button button'
+            ;
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            .name {
+                grid-area: name;
+            }
+            .email {
+                grid-area: email;
+            }    
+            .phone {
+                grid-area: phone;
+            }       
+            .subject {
+                grid-area: subject;
+            }
+            .message {
+                grid-area: message;
+                height: 180px;
+            }          
+            .btn-dark {
+                grid-area: button;
+            }
+            .input {
+                padding: .5rem 1rem;
+            }
+        }
+    }
+
+    &__b {
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+            color: #fff; 
+        }
+    }
+
+
+}
+
+.body__contact {
+    height: 100vh;
+}
+
+// footer
+#main-footer .footer-content{
+    margin: 0;
+    padding: 0;
+}
+
+#main-footer p {
+    color: #fff;
+}
+
+#main-footer div {
+    color: #fff;
+}
+
+
