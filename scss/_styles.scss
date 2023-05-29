@@ -6,12 +6,16 @@
 
 // Header
 header {
-    background-image: url(../img/img1.jpg);
+    background-image: url(../img/img3.jpg);
     background-color: #fff;
     height: 100vh;
-    background-position: center;
+    background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: cover; 
+}
+
+header div a{
+    font-size: large!important;
 }
 
 // Navbar
@@ -20,7 +24,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    border-bottom: 1px solid #EF6D6D;
+    border-bottom: 2px solid #EF6D6D;
     color: #fff;
 }
 
@@ -29,7 +33,7 @@ header {
 }
 
 .active {
-    border-bottom: 1px solid #EF6D6D;
+    border-bottom: 2px solid #EF6D6D;
     color: #fff!important; 
 }
 
